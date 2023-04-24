@@ -1,0 +1,16 @@
+2023-04-24T16:40:10+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" i C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-content\themes\storefront-child\functions.php på rad 5
+
+2023-04-24T16:53:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-content\themes\storefront-child\functions.php on line 10 and at least 2 expected in C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-includes\plugin.php:612
+Stack trace:
+#0 C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-content\themes\storefront-child\functions.php(10): remove_action('woocommerce_sin...')
+#1 C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-includes\class-wp-hook.php(308): remove_category('')
+#2 C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-settings.php(601): do_action('after_setup_the...')
+#5 C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-config.php(93): require_once('C:\\Users\\ricka\\...')
+#6 C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-load.php(50): require_once('C:\\Users\\ricka\\...')
+#7 C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-blog-header.php(13): require_once('C:\\Users\\ricka\\...')
+#8 C:\Users\ricka\Documents\Coding\php\labb2-namn\index.php(17): require('C:\\Users\\ricka\\...')
+#9 {main}
+  thrown i C:\Users\ricka\Documents\Coding\php\labb2-namn\wp-includes\plugin.php på rad 612
+
